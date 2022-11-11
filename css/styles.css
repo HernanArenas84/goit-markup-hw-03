@@ -132,6 +132,8 @@ header .container :nth-child(2) {
 
 .features-box {
   display: flex;
+  text-align: left;
+  justify-content: space-between;
   width: 1170px;
   height: 122px;
   margin-left: 215px;
@@ -152,7 +154,6 @@ header .container :nth-child(2) {
   color: var(--grey-color);
   width: 270px;
   margin-top: 0px;
-  margin-right: 30px;
   margin-left: 0px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -193,7 +194,9 @@ header .container :nth-child(2) {
 
 .equipo {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 1117px;
+  margin-left: 208px;
 }
 
 .tarjeta {
@@ -205,7 +208,7 @@ header .container :nth-child(2) {
   height: 368px;
   display: flex;
   flex-direction: column;
-  margin-right: 37px;
+  /*margin-right: 37px;*/
 }
 
 .nombre-profesional {
